@@ -1,15 +1,14 @@
 import {
-  Navbar,
-  Footer,
-  CTA,
-} from "../components/layout";
-
-import {
   NewsHero,
   FeaturedArticle,
   NewsGrid,
-  NewsCard,
 } from "../components/news";
+
+import {
+  Navbar,
+  Footer,
+ CTA,
+} from "../components/layout";
 
 export default function NewsPage() {
   return (
@@ -23,8 +22,6 @@ export default function NewsPage() {
         <FeaturedArticle />
 
         <NewsGrid />
-
-        <NewsCard />
 
         <CTA />
 
