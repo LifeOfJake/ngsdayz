@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-import { Event, events } from "./data/events";
+import { Event, events } from "../data/events";
 
 import {
   Button,
   Card,
   Container,
   Section,
-} from "./ui";
+} from "../ui";
 
 interface RelatedEventsProps {
   event: Event;

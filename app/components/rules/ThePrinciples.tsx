@@ -13,7 +13,7 @@ import {
   Grid,
   Heading,
   Section,
-} from "./ui";
+} from "../ui";
 
 const principles = [
   {

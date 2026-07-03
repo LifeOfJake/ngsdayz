@@ -13,7 +13,7 @@ import {
 
 import RuleCard from "./RuleCard";
 
-import { ruleCategories } from "../data";
+import { ruleCategories } from "../../data";
 
 export default function RuleBook() {
   const [openCard, setOpenCard] = useState<string>("combat");

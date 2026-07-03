@@ -8,13 +8,15 @@ import {
   CTA,
 } from "../../components/layout";
 
-import EventHero from "../../components/detail/EventHero";
-import DetailOverview from "../../components/detail/DetailOverview";
-import ChecklistSection from "../../components/detail/ChecklistSection";
-import FeatureGrid from "../../components/detail/FeatureGrid"; 
-import MediaGallery from "../../components/detail/MediaGallery";
-import EventIntelligence from "../../components/detail/EventIntelligence";
-import RelatedContent from "../../components/RelatedContent";
+import {
+  EventHero,
+  DetailOverview,
+  MediaGallery,
+  EventIntelligence,
+  ChecklistSection,
+  FeatureGrid,
+  RelatedContent,
+} from "../../components/detail";
 
 interface EventPageProps {
   params: Promise<{

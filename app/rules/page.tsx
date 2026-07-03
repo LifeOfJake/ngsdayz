@@ -1,7 +1,9 @@
-import RulesHero from "../components/RulesHero";
-import WhyRules from "../components/about/WhyRules";
-import ThePrinciples from "../components/ThePrinciples";
-import RuleBook from "../components/RuleBook";
+import {
+  RulesHero,
+  WhyRules,
+  ThePrinciples,
+  RuleBook,
+} from "../components/rules";
 
 import {
   Navbar,
