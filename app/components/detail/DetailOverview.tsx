@@ -1,11 +1,11 @@
-import { Event } from "./data/events";
+import { Event } from "../data/events";
 
 import {
   Card,
   Container,
   Divider,
   Section,
-} from "./ui";
+} from "../ui";
 
 interface EventOverviewProps {
   event: Event;

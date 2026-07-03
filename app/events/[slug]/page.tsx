@@ -8,12 +8,12 @@ import {
   CTA,
 } from "../../components/layout";
 
-import EventHero from "../../components/EventHero";
-import DetailOverview from "../../components/DetailOverview";
-import ChecklistSection from "../../components/ChecklistSection";
-import FeatureGrid from "../../components/FeatureGrid"; 
-import MediaGallery from "../../components/MediaGallery";
-import EventIntelligence from "../../components/EventIntelligence";
+import EventHero from "../../components/detail/EventHero";
+import DetailOverview from "../../components/detail/DetailOverview";
+import ChecklistSection from "../../components/detail/ChecklistSection";
+import FeatureGrid from "../../components/detail/FeatureGrid"; 
+import MediaGallery from "../../components/detail/MediaGallery";
+import EventIntelligence from "../../components/detail/EventIntelligence";
 import RelatedContent from "../../components/RelatedContent";
 
 interface EventPageProps {

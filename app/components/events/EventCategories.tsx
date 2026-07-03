@@ -3,7 +3,7 @@ import {
   Container,
   Heading,
   Section,
-} from "./ui";
+} from "../ui";
 
 const categories = [
   {

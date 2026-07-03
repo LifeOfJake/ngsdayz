@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import { events } from "./data/events";
+import { events } from "../data/events";
 
-import Button from "./ui/Button";
-import Card from "./ui/Card";
-import Container from "./ui/Container";
-import Section from "./ui/Section";
+import Button from "../ui/Button";
+import Card from "../ui/Card";
+import Container from "../ui/Container";
+import Section from "../ui/Section";
 
 export default function EventsHero() {
   const featuredEvent = events.find((event) => event.featured)!;

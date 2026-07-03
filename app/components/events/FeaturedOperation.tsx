@@ -5,7 +5,7 @@ import {
   Card,
   Container,
   Section,
-} from "./ui";
+} from "../ui";
 
 export default function FeaturedOperation() {
   return (

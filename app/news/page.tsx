@@ -1,12 +1,15 @@
-import NewsHero from "../components/NewsHero";
-import FeaturedArticle from "../components/FeaturedArticle";
-import NewsGrid from "../components/NewsGrid";
-
 import {
   Navbar,
   Footer,
   CTA,
 } from "../components/layout";
+
+import {
+  NewsHero,
+  FeaturedArticle,
+  NewsGrid,
+  NewsCard,
+} from "../components/news";
 
 export default function NewsPage() {
   return (
@@ -20,6 +23,8 @@ export default function NewsPage() {
         <FeaturedArticle />
 
         <NewsGrid />
+
+        <NewsCard />
 
         <CTA />
 

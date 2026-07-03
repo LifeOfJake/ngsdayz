@@ -1,7 +1,9 @@
-import EventsHero from "../components/EventsHero";
-import FeaturedOperation from "../components/FeaturedOperation";
-import UpcomingEvents from "../components/UpcomingEvents";
-import EventCategories from "../components/EventCategories";
+import {
+  EventsHero,
+  FeaturedOperation,
+  UpcomingEvents,
+  EventCategories,
+} from "../components/events";
 
 import {
   Navbar,

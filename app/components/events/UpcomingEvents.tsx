@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-import { events } from "./data/events"
+import { events } from "../data/events"
 
-import Button from "./ui/Button";
-import Card from "./ui/Card";
-import Container from "./ui/Container";
-import Heading from "./ui/Heading";
-import Section from "./ui/Section";
+import Button from "../ui/Button";
+import Card from "../ui/Card";
+import Container from "../ui/Container";
+import Heading from "../ui/Heading";
+import Section from "../ui/Section";
 
 export default function UpcomingEvents() {
   return (

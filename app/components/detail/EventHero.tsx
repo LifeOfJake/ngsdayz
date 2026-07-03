@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import { Event } from "./data/events";
+import { Event } from "../data/events";
 
 import {
   Badge,
   Container,
-} from "./ui";
+} from "../ui";
 
 interface EventHeroProps {
   event: Event;
