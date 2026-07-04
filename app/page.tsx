@@ -4,6 +4,7 @@ import {
   Features,
   News,
   Events,
+  NetworkOperations,
 } from "./components/home";
 
 import {
@@ -17,6 +18,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <NetworkOperations />
       <Vision />
       <Features />
       <News />

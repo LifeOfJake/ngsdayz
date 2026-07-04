@@ -2,42 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { community } from "../data/community";
-import { server } from "../data/server";
 
 import {
   Button,
-  Card,
   Container,
-  Divider,
 } from "../ui";
-
-const serverInfo = [
-  {
-    label: "Status",
-    value: "🟢 Online",
-    highlight: true,
-  },
-  {
-    label: "Players",
-    value: `${47} / ${server.maxPlayers}`,
-  },
-  {
-    label: "Queue",
-    value: "0",
-  },
-  {
-    label: "Map",
-    value: server.map,
-  },
-  {
-    label: "Restart",
-    value: "02:53:41",
-  },
-  {
-    label: "Discord",
-    value: server.discordMembers,
-  },
-];
 
 export default function Hero() {
   return (
@@ -53,120 +22,60 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/65" />
 
-      <div className="relative z-10 flex min-h-screen items-center pt-32">
+      <div className="relative z-10 flex min-h-screen items-center pt-24">
 
         <Container>
 
-          <div className="grid items-center gap-20 lg:grid-cols-[1.2fr_0.8fr]">
+          <div className="mx-auto max-w-4xl text-center">
 
-            {/* Left */}
+            <p className="mb-6 text-sm font-black uppercase tracking-[10px] text-lime-400">
+              Welcome To
+            </p>
 
-            <div>
+            <h1 className="leading-none">
 
-              <p className="mb-6 text-sm font-black uppercase tracking-[10px] text-lime-400">
-                Welcome To
-              </p>
+              <span className="block text-6xl font-black uppercase text-white md:text-7xl xl:text-8xl">
+                Next Generation
+              </span>
 
-              <h1 className="leading-none">
+              <span className="block text-6xl font-black uppercase text-lime-400 md:text-7xl xl:text-8xl">
+                Survival
+              </span>
 
-                <span className="block text-6xl font-black uppercase text-white xl:text-8xl">
-                  Next Generation
-                </span>
+            </h1>
 
-                <span className="block text-6xl font-black uppercase text-lime-400 xl:text-8xl">
-                  Survival
-                </span>
+            <h2 className="mt-6 text-3xl font-bold text-white">
+              Official DayZ Community
+            </h2>
 
-              </h1>
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-300">
+              Experience hardcore survival with balanced PvP,
+              immersive custom events, active staff and one of the
+              UK's fastest growing DayZ communities.
+            </p>
 
-              <h2 className="mt-8 text-3xl font-bold">
-                Official DayZ Community
-              </h2>
-
-              <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                Experience hardcore survival with balanced PvP,
-                custom events, active staff and one of the UK's
-                fastest growing DayZ communities.
-              </p>
-
-              <div className="mt-12 flex flex-col gap-5 sm:flex-row">
-
-                <Link href={community.playNow}>
-                  <Button>
-                    Play Now
-                  </Button>
-                </Link>
-
-                <Link
-                  href={community.discord}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button variant="secondary">
-                    Join Discord
-                  </Button>
-                </Link>
-
-              </div>
-
-            </div>
-
-            {/* Right */}
-
-            <Card
-              variant="glass"
-              padding="lg"
-            >
-
-              <h3 className="mb-8 text-sm font-black uppercase tracking-[6px] text-lime-400">
-                Live Server
-              </h3>
-
-              <div>
-
-                {serverInfo.map((item, index) => (
-
-                  <div key={item.label}>
-
-                    <div className="flex items-center justify-between py-3">
-
-                      <span className="text-gray-400">
-                        {item.label}
-                      </span>
-
-                      <span
-                        className={`font-bold ${
-                          item.highlight
-                            ? "text-lime-400"
-                            : "text-white"
-                        }`}
-                      >
-                        {item.value}
-                      </span>
-
-                    </div>
-
-                    {index !== serverInfo.length - 1 && (
-                      <Divider spacing="sm" />
-                    )}
-
-                  </div>
-
-                ))}
-
-              </div>
+            <div className="mt-6 flex flex-col justify-center gap-5 sm:flex-row">
 
               <Link href={community.playNow}>
-                <Button
-                  className="mt-10"
-                  fullWidth
-                  size="lg"
-                >
-                  Join Server →
+                <Button size="lg">
+                  ▶ Play Now
                 </Button>
               </Link>
 
-            </Card>
+              <Link
+                href={community.discord}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="secondary"
+                  size="lg"
+                >
+                  Join Discord
+                </Button>
+              </Link>
+
+            </div>
 
           </div>
 

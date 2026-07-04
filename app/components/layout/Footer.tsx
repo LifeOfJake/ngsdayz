@@ -2,7 +2,9 @@ import Link from "next/link";
 
 import { community } from "../data/community";
 import { navigation } from "../data/navigation";
-import { server } from "../data/server";
+import { servers } from "../data/servers";
+
+const server = servers[0];
 
 import {
   Container,
