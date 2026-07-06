@@ -4,7 +4,6 @@ import {
   Heartlands,
   Future,
   WhatWeBelieve,
-  WhyRules,
 } from "../components/about";
 
 import {
@@ -27,8 +26,6 @@ export default function AboutPage() {
   <Heartlands />
 
   <WhatWeBelieve />
-
-  <WhyRules />
 
   <Future />
 

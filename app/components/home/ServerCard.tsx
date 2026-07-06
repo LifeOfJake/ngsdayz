@@ -2,6 +2,7 @@ import { Server } from "../data";
 import {
   Button,
   Card,
+  ClipboardButton,
 } from "../ui";
 
 interface ServerCardProps {
@@ -222,23 +223,37 @@ export default function ServerCard({
             {/* Direct Connect */}
 
             <div className="mt-8 rounded-2xl border border-white/10 bg-black/40 p-6">
-              <p className="text-xs font-black uppercase tracking-[4px] text-lime-400">
-                Direct Connect
-              </p>
+  <p className="text-xs font-black uppercase tracking-[4px] text-lime-400">
+    Direct Connect
+  </p>
 
-              <p className="mt-4 break-all font-mono text-lg text-white">
-                {server.ip}:{server.port}
-              </p>
-            </div>
+  <p className="mt-4 break-all font-mono text-lg text-white">
+    {server.ip}:{server.port}
+  </p>
+</div>
 
             {/* Actions */}
 
             <div className="mt-8 grid grid-cols-2 gap-4">
-              <Button
-                variant="secondary"
-              >
-                Copy Address
-              </Button>
+              <ClipboardButton
+  text={`${server.ip}:${server.port}`}
+  className="
+    w-full
+    border
+    border-white/10
+    bg-white/5
+    px-6
+    py-3
+    text-sm
+    font-black
+    uppercase
+    tracking-[3px]
+    text-white
+    hover:border-lime-400/40
+    hover:bg-lime-400/10
+    hover:text-lime-400
+  "
+/>
 
               <Button>
                 {offline

@@ -8,3 +8,4 @@ export { default as Divider } from "./Divider";
 export { default as GlassPanel } from "./GlassPanel";
 export { default as Stack } from "./Stack";
 export { default as Grid } from "./Grid";
+export { default as ClipboardButton } from "./ClipboardButton";

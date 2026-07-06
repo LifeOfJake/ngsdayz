@@ -8,37 +8,31 @@ import {
 
 const features = [
   {
-    number: "01",
-    title: "Balanced PvP",
+    title: "Persistent World",
     description:
-      "A carefully balanced PvP environment with active moderation, fair gameplay and competitive combat.",
+      "Every action leaves its mark in a world shaped by its survivors.",
   },
   {
-    number: "02",
-    title: "Custom Content",
+    title: "Meaningful Survival",
     description:
-      "Quality-of-life improvements, unique systems and carefully selected mods that enhance the survival experience.",
+      "Every encounter, resource and decision carries real consequences.",
   },
   {
-    number: "03",
-    title: "Community Events",
+    title: "Community First",
     description:
-      "Weekly PvP tournaments, convoy missions, treasure hunts and seasonal events for every type of player.",
+      "Built alongside our community and shaped by player feedback.",
   },
   {
-    number: "04",
-    title: "Massive Community",
+    title: "Always Evolving",
     description:
-      "Join over 136,000 survivors on Discord and become part of one of the UK's largest DayZ communities.",
+      "Continuous improvements and seasonal content keep NGS moving forward.",
   },
 ];
 
 export default function Features() {
   return (
     <Section>
-
       <Container>
-
         <Heading
           align="left"
           eyebrow="Why Choose NGS"
@@ -51,49 +45,75 @@ export default function Features() {
           }
         />
 
+        <div className="mt-8 max-w-3xl">
+          <p className="text-xl leading-9 text-gray-400">
+            Every decision behind{" "}
+            <span className="font-semibold text-white">
+              Next Generation Survival
+            </span>{" "}
+            is made with one goal in mind: creating a DayZ experience that
+            rewards exploration, teamwork and long-term survival. From server
+            performance to community events, everything we build exists to
+            create a world worth returning to.
+          </p>
+        </div>
+
         <Grid
           columns={2}
-          className="mt-20"
+          className="mt-16"
         >
-
           {features.map((feature) => (
-
             <Card
-              key={feature.number}
+              key={feature.title}
               padding="lg"
               className="
                 group
+                relative
+                overflow-hidden
+                border
+                border-white/10
                 bg-white/[0.03]
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:border-lime-400/30
                 hover:bg-white/[0.05]
+                hover:shadow-[0_24px_48px_rgba(0,0,0,0.35)]
               "
             >
+              <div
+                className="
+                  mb-8
+                  h-1
+                  w-12
+                  rounded-full
+                  bg-lime-400
+                  transition-all
+                  duration-300
+                  group-hover:w-20
+                "
+              />
 
-              <p className="text-6xl font-black text-lime-400/25 transition-colors duration-300 group-hover:text-lime-400">
-
-                {feature.number}
-
-              </p>
-
-              <h3 className="mt-6 text-3xl font-bold text-white">
-
+              <h3
+                className="
+                  text-3xl
+                  font-bold
+                  text-white
+                  transition-colors
+                  duration-300
+                  group-hover:text-lime-400
+                "
+              >
                 {feature.title}
-
               </h3>
 
-              <p className="mt-5 text-lg leading-8 text-gray-400">
-
+              <p className="mt-5 max-w-md text-lg leading-8 text-gray-400">
                 {feature.description}
-
               </p>
-
             </Card>
-
           ))}
-
         </Grid>
-
       </Container>
-
     </Section>
   );
 }
