@@ -1,0 +1,214 @@
+[
+  {
+    "id": "vavilovo",
+    "name": "Vavilovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["vavilovo"],
+    "description": "Small village in western central Chernarus."
+  },
+  {
+    "id": "lopatino",
+    "name": "Lopatino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["lopatino"],
+    "description": "Village west of VMC."
+  },
+  {
+    "id": "vybor",
+    "name": "Vybor",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["vybor"],
+    "description": "Large village in western Chernarus."
+  },
+  {
+    "id": "rogovo",
+    "name": "Rogovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["rogovo"],
+    "description": "Village west of Pogorevka."
+  },
+  {
+    "id": "pogorevka",
+    "name": "Pogorevka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["pogorevka"],
+    "description": "Village surrounded by forests."
+  },
+  {
+    "id": "pulkovo",
+    "name": "Pulkovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["pulkovo"],
+    "description": "Small farming village."
+  },
+  {
+    "id": "vyshnoye",
+    "name": "Vyshnoye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["vyshnoye"],
+    "description": "Village in south-central Chernarus."
+  },
+  {
+    "id": "kumyrna",
+    "name": "Kumyrna",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["kumyrna"],
+    "description": "Remote woodland village."
+  },
+  {
+    "id": "guglovo",
+    "name": "Guglovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["guglovo"],
+    "description": "Village east of Novy Sobor."
+  },
+  {
+    "id": "staroye",
+    "name": "Staroye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["staroye"],
+    "description": "Historic inland village."
+  },
+  {
+    "id": "shakhovka",
+    "name": "Shakhovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["shakhovka"],
+    "description": "Village east of Guglovo."
+  },
+  {
+    "id": "gorka",
+    "name": "Gorka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["gorka"],
+    "description": "Hilltop village in eastern central Chernarus."
+  },
+  {
+    "id": "vyshnaya-dubrovka",
+    "name": "Vyshnaya Dubrovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["vyshnaya dubrovka", "dubrovka"],
+    "description": "Village northeast of Gorka."
+  },
+  {
+    "id": "novy-lug",
+    "name": "Novy Lug",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["novy lug"],
+    "description": "Village east of Staroye."
+  },
+  {
+    "id": "grishino",
+    "name": "Grishino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["grishino"],
+    "description": "Village north of NWAF."
+  },
+  {
+    "id": "adamovka",
+    "name": "Adamovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["adamovka"],
+    "description": "Remote village in the northwest."
+  },
+  {
+    "id": "kalinka",
+    "name": "Kalinka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["kalinka"],
+    "description": "Small northern village."
+  },
+  {
+    "id": "dubnik",
+    "name": "Dubnik",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["dubnik"],
+    "description": "Village west of Novy Sobor."
+  },
+  {
+    "id": "kabanino",
+    "name": "Kabanino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["kabanino"],
+    "description": "Village south of NWAF."
+  },
+  {
+    "id": "stary-sobor",
+    "name": "Stary Sobor",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["stary sobor"],
+    "description": "Historic village in central Chernarus."
+  },
+  {
+    "id": "novy-sobor",
+    "name": "Novy Sobor",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["novy sobor"],
+    "description": "Village at the heart of Chernarus."
+  },
+  {
+    "id": "nadezhda",
+    "name": "Nadezhda",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["nadezhda"],
+    "description": "Small settlement west of NWAF."
+  },
+  {
+    "id": "vmc",
+    "name": "VMC",
+    "category": "military",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "vmc",
+      "vybor military",
+      "vybor military base"
+    ],
+    "description": "Major military base west of Vybor."
+  },
+  {
+    "id": "nwaf",
+    "name": "NWAF",
+    "category": "military",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "nwaf",
+      "northwest airfield",
+      "vybor airfield"
+    ],
+    "description": "The largest military airfield in Chernarus."
+  },
+  {
+    "id": "radio-zenit",
+    "name": "Radio Zenit",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "radio zenit",
+      "altar",
+      "altar radio"
+    ],
+    "description": "Historic radio tower overlooking central Chernarus."
+  }
+]

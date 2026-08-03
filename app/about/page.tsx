@@ -4,13 +4,13 @@ import {
   Heartlands,
   Future,
   WhatWeBelieve,
-} from "../components/about";
+} from "../../Components 2/marketing/about";
 
 import {
   Navbar,
   Footer,
   CTA,
-} from "../components/layout";
+} from "../../Components 2/layouts";
 
 export default function AboutPage() {
   return (

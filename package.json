@@ -5,16 +5,25 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "atlas:build": "tsx scripts/atlas-build.ts",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.11.3",
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fuse.js": "^7.5.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^1.22.0",
-    "next": "16.2.9",
+    "next": "^16.2.12",
+    "next-auth": "^5.0.0-beta.32",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "react-leaflet": "^5.0.0"
+    "react-leaflet": "^5.0.0",
+    "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -24,10 +33,23 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "prisma": "^7.9.1",
     "tailwindcss": "^4",
+    "tsx": "^4.23.0",
     "typescript": "^5"
   },
   "allowScripts": {
-    "lucide-react@1.22.0": true
+    "lucide-react@1.22.0": true,
+    "es5-ext@0.10.64": true,
+    "unrs-resolver@1.12.2": true,
+    "fuse.js@7.5.0": true,
+    "clsx@2.1.1": true,
+    "tailwind-merge@3.6.0": true,
+    "class-variance-authority@0.7.1": true,
+    "@auth/prisma-adapter@2.11.3": true,
+    "next-auth@4.24.15": true,
+    "@prisma/client@7.9.1": true,
+    "prisma@7.9.1": true,
+    "@prisma/adapter-pg@7.9.1": true
   }
 }

@@ -1,12 +1,12 @@
 import { notFound } from "next/navigation";
 
-import { events } from "../../components/data/events";
+import { events } from "../../../data/events/events";
 
 import {
   Navbar,
   Footer,
   CTA,
-} from "../../components/layout";
+} from "../../../Components 2/layouts";
 
 import {
   EventHero,
@@ -16,7 +16,7 @@ import {
   ChecklistSection,
   FeatureGrid,
   RelatedContent,
-} from "../../components/detail";
+} from "../../../components/detail";
 
 interface EventPageProps {
   params: Promise<{

@@ -1,15 +1,15 @@
 import {
   RulesHero,
   WhyRules,
-  ThePrinciples,
+  /**ThePrinciples,**/
   RuleBook,
-} from "../components/rules";
+} from "../../Components 2/marketing/rules";
 
 import {
   Navbar,
   Footer,
   CTA,
-} from "../components/layout";
+} from "../../Components 2/layouts";
 
 export default function RulesPage() {
     return (
@@ -17,7 +17,6 @@ export default function RulesPage() {
             <Navbar />
             <RulesHero />
             <WhyRules />
-            <ThePrinciples />
             <RuleBook />
             <CTA />
             <Footer />

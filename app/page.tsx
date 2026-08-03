@@ -5,13 +5,13 @@ import {
   News,
   Events,
   NetworkOperations,
-} from "./components/home";
+} from "../Components 2/marketing/homepage";
 
 import {
   Navbar,
   Footer,
   CTA,
-} from "./components/layout";
+} from "../Components 2/layouts";
 
 export default function Home() {
   return (

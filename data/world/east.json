@@ -1,0 +1,134 @@
+[
+  {
+    "id": "berezino",
+    "name": "Berezino",
+    "category": "city",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["berezino"],
+    "description": "Major city on the eastern coast."
+  },
+  {
+    "id": "svetloyarsk",
+    "name": "Svetloyarsk",
+    "category": "city",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["svetlo", "svetloyarsk"],
+    "description": "Northern coastal city."
+  },
+  {
+    "id": "solnechny",
+    "name": "Solnechny",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["solnechny"],
+    "description": "Small coastal village."
+  },
+  {
+    "id": "dolina",
+    "name": "Dolina",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["dolina"],
+    "description": "Village between Elektro and Solnechny."
+  },
+  {
+    "id": "orlovets",
+    "name": "Orlovets",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["orlovets"],
+    "description": "Small inland village."
+  },
+  {
+    "id": "nizhneye",
+    "name": "Nizhneye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["nizhneye"],
+    "description": "Village on the eastern coast."
+  },
+  {
+    "id": "polyana",
+    "name": "Polyana",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["polyana"],
+    "description": "Village overlooking Berezino."
+  },
+  {
+    "id": "dubrovka",
+    "name": "Dubrovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["dubrovka"],
+    "description": "Village in the northeast."
+  },
+  {
+    "id": "khelm",
+    "name": "Khelm",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["khelm"],
+    "description": "Eastern farming village."
+  },
+  {
+    "id": "krasnostav",
+    "name": "Krasnostav",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["krasnostav", "krasno"],
+    "description": "Village south of NEAF."
+  },
+  {
+    "id": "olsha",
+    "name": "Olsha",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["olsha"],
+    "description": "Small coastal village."
+  },
+  {
+    "id": "turovo",
+    "name": "Turovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["turovo"],
+    "description": "Remote northeastern village."
+  },
+  {
+    "id": "berezhki",
+    "name": "Berezhki",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["berezhki"],
+    "description": "Village north of Svetloyarsk."
+  },
+  {
+    "id": "belaya-polyana",
+    "name": "Belaya Polyana",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["belaya polyana", "belaya"],
+    "description": "Village in the far northeast."
+  },
+  {
+    "id": "neaf",
+    "name": "NEAF",
+    "category": "military",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "neaf",
+      "krasnostav airfield",
+      "krasno airfield"
+    ],
+    "description": "Military airfield northeast of Krasnostav."
+  },
+  {
+    "id": "rify",
+    "name": "Rify",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["rify", "shipwreck"],
+    "description": "Coastal shipwreck and landmark."
+  }
+]

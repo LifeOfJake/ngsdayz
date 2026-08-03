@@ -1,0 +1,172 @@
+[
+  {
+    "id": "novodmitrovsk",
+    "name": "Novodmitrovsk",
+    "category": "city",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["novo", "novodmitrovsk"],
+    "description": "Largest city in northern Chernarus."
+  },
+  {
+    "id": "severograd",
+    "name": "Severograd",
+    "category": "city",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["severo", "severograd"],
+    "description": "Industrial city in northern Chernarus."
+  },
+  {
+    "id": "dobroye",
+    "name": "Dobroye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["dobroye"],
+    "description": "Remote northern village."
+  },
+  {
+    "id": "karmanovka",
+    "name": "Karmanovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["karmanovka"],
+    "description": "Small village in the northeast."
+  },
+  {
+    "id": "chernaya-polyana",
+    "name": "Chernaya Polyana",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["chernaya polyana", "chernaya"],
+    "description": "Village northeast of Novodmitrovsk."
+  },
+  {
+    "id": "nagornoye",
+    "name": "Nagornoye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["nagornoye"],
+    "description": "Northern hillside village."
+  },
+  {
+    "id": "severgino",
+    "name": "Severgino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["severgino"],
+    "description": "Village east of Severograd."
+  },
+  {
+    "id": "gvozdno",
+    "name": "Gvozdno",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["gvozdno"],
+    "description": "Small northern village."
+  },
+  {
+    "id": "kalinovka",
+    "name": "Kalinovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["kalinovka"],
+    "description": "Village in the far northwest."
+  },
+  {
+    "id": "kamensk",
+    "name": "Kamensk",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["kamensk"],
+    "description": "Northern village near the military base."
+  },
+  {
+    "id": "ratnoye",
+    "name": "Ratnoye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["ratnoye"],
+    "description": "Remote northern settlement."
+  },
+  {
+    "id": "zaprudnoye",
+    "name": "Zaprudnoye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["zaprudnoye"],
+    "description": "Village north of Severograd."
+  },
+  {
+    "id": "polesovo",
+    "name": "Polesovo",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["polesovo"],
+    "description": "Small northern village."
+  },
+  {
+    "id": "krasnoye",
+    "name": "Krasnoye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["krasnoye"],
+    "description": "Village near the northern forests."
+  },
+  {
+    "id": "stary-yar",
+    "name": "Stary Yar",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["stary yar", "stary"],
+    "description": "Northern rural settlement."
+  },
+  {
+    "id": "novaya-petrovka",
+    "name": "Novaya Petrovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["novaya petrovka", "petrovka"],
+    "description": "Village overlooking the northwestern coast."
+  },
+  {
+    "id": "topolniki",
+    "name": "Topolniki",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["topolniki"],
+    "description": "Small village in the far north."
+  },
+  {
+    "id": "kamensk-military",
+    "name": "Kamensk Military",
+    "category": "military",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "kamensk military",
+      "kamensk base"
+    ],
+    "description": "Military installation west of Kamensk."
+  },
+  {
+    "id": "tisy",
+    "name": "Tisy",
+    "category": "military",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "tisy",
+      "tisy military",
+      "tisy military base"
+    ],
+    "description": "Large military base in the northwest."
+  },
+  {
+    "id": "grozovoy-pass",
+    "name": "Grozovoy Pass",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "grozovoy",
+      "grozovoy pass"
+    ],
+    "description": "Mountain pass in northern Chernarus."
+  }
+]

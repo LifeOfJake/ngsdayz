@@ -1,0 +1,144 @@
+[
+  {
+    "id": "zelenogorsk",
+    "name": "Zelenogorsk",
+    "category": "city",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["zelenogorsk", "zeleno"],
+    "description": "Major town in western Chernarus."
+  },
+  {
+    "id": "zvir",
+    "name": "Zvir",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["zvir"],
+    "description": "Remote village in western Chernarus."
+  },
+  {
+    "id": "sosnovka",
+    "name": "Sosnovka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["sosnovka"],
+    "description": "Village surrounded by woodland."
+  },
+  {
+    "id": "myshkino",
+    "name": "Myshkino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["myshkino"],
+    "description": "Western village near extensive forests."
+  },
+  {
+    "id": "pustoshka",
+    "name": "Pustoshka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["pustoshka"],
+    "description": "Small village in western Chernarus."
+  },
+  {
+    "id": "galkino",
+    "name": "Galkino",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["galkino"],
+    "description": "Village west of the central plains."
+  },
+  {
+    "id": "bogatyrka",
+    "name": "Bogatyrka",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["bogatyrka"],
+    "description": "Quiet farming village."
+  },
+  {
+    "id": "zabolotye",
+    "name": "Zabolotye",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["zabolotye"],
+    "description": "Village near the northwestern marshes."
+  },
+  {
+    "id": "sinystok",
+    "name": "Sinystok",
+    "category": "village",
+    "position": { "x": 0, "y": 0 },
+    "keywords": ["sinystok"],
+    "description": "Northern village in western Chernarus."
+  },
+  {
+    "id": "sosnovy-pass",
+    "name": "Sosnovy Pass",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "sosnovy pass",
+      "pass"
+    ],
+    "description": "Mountain pass through western Chernarus."
+  },
+  {
+    "id": "tri-kresta",
+    "name": "Tri Kresta",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "tri kresta",
+      "three crosses"
+    ],
+    "description": "Historic hilltop landmark."
+  },
+  {
+    "id": "skvsch-biathlon-arena",
+    "name": "SKVSCh Biathlon Arena",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "biathlon",
+      "biathlon arena",
+      "skvsch"
+    ],
+    "description": "Abandoned sporting complex in western Chernarus."
+  },
+  {
+    "id": "svyatoy-roman-ski-resort",
+    "name": "Svyatoy Roman Ski Resort",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "ski resort",
+      "svyatoy roman",
+      "roman ski"
+    ],
+    "description": "Abandoned ski resort in the western mountains."
+  },
+  {
+    "id": "devils-castle",
+    "name": "Devil's Castle",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "devils castle",
+      "devil's castle",
+      "devils",
+      "devil"
+    ],
+    "description": "Ruined hilltop castle overlooking central Chernarus."
+  },
+  {
+    "id": "zub-castle",
+    "name": "Zub Castle",
+    "category": "landmark",
+    "position": { "x": 0, "y": 0 },
+    "keywords": [
+      "zub",
+      "zub castle"
+    ],
+    "description": "Ruined castle overlooking western Chernarus."
+  }
+]

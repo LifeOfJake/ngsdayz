@@ -2,13 +2,13 @@ import {
   NewsHero,
   FeaturedArticle,
   NewsGrid,
-} from "../components/news";
+} from "../../Components 2/marketing/news";
 
 import {
   Navbar,
   Footer,
  CTA,
-} from "../components/layout";
+} from "../../Components 2/layouts";
 
 export default function NewsPage() {
   return (

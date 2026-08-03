@@ -1,4 +1,4 @@
-import InteractiveMap from "@/app/components/map/atlas/InteractiveMap";
+import InteractiveMap from "@/Components 2/atlas/map/atlas/InteractiveMap";
 
 export default function AtlasPage() {
   return (

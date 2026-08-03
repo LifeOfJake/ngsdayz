@@ -1,0 +1,432 @@
+[
+  {
+    "id": "chernogorsk",
+    "name": "Chernogorsk",
+    "category": "city",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "cherno",
+      "chernogorsk"
+    ],
+    "description": "Major coastal city."
+  },
+  {
+    "id": "elektrozavodsk",
+    "name": "Elektrozavodsk",
+    "category": "city",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "elektro",
+      "elektrozavodsk"
+    ],
+    "description": "Major industrial city on the southern coast."
+  },
+  {
+    "id": "balota",
+    "name": "Balota",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "balota"
+    ],
+    "description": "Small coastal village."
+  },
+  {
+    "id": "bor",
+    "name": "Bor",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "bor"
+    ],
+    "description": "Small inland village."
+  },
+  {
+    "id": "dubovo",
+    "name": "Dubovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "dubovo"
+    ],
+    "description": "Village south of Chernogorsk."
+  },
+  {
+    "id": "kamenka",
+    "name": "Kamenka",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "kamenka"
+    ],
+    "description": "Western coastal village."
+  },
+  {
+    "id": "kamyshovo",
+    "name": "Kamyshovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "kamy",
+      "kamyshovo"
+    ],
+    "description": "Eastern coastal village."
+  },
+  {
+    "id": "komarovo",
+    "name": "Komarovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "komarovo"
+    ],
+    "description": "Coastal village west of Balota."
+  },
+  {
+    "id": "kozlovka",
+    "name": "Kozlovka",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "kozlovka"
+    ],
+    "description": "Quiet inland village."
+  },
+  {
+    "id": "maryanka",
+    "name": "Maryanka",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "maryanka"
+    ],
+    "description": "Small settlement in the southwest."
+  },
+  {
+    "id": "mogilevka",
+    "name": "Mogilevka",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "mogilevka"
+    ],
+    "description": "Central southern farming village."
+  },
+  {
+    "id": "msta",
+    "name": "Msta",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "msta"
+    ],
+    "description": "Village east of Staroye."
+  },
+  {
+    "id": "nadezhdino",
+    "name": "Nadezhdino",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "nadezhdino"
+    ],
+    "description": "Small western farming village."
+  },
+  {
+    "id": "novoselki",
+    "name": "Novoselki",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "novoselki"
+    ],
+    "description": "Village west of Chernogorsk."
+  },
+  {
+    "id": "pavlovo",
+    "name": "Pavlovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "pavlovo"
+    ],
+    "description": "Village in the southwest of Chernarus."
+  },
+  {
+    "id": "prigorodki",
+    "name": "Prigorodki",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "prigorodki"
+    ],
+    "description": "Settlement bordering Chernogorsk."
+  },
+  {
+    "id": "pulkovo",
+    "name": "Pulkovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "pulkovo"
+    ],
+    "description": "Small inland settlement."
+  },
+  {
+    "id": "pusta",
+    "name": "Pusta",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "pusta"
+    ],
+    "description": "Remote southern village."
+  },
+  {
+    "id": "rogovo",
+    "name": "Rogovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "rogovo"
+    ],
+    "description": "Western farming village."
+  },
+  {
+    "id": "sosnovka",
+    "name": "Sosnovka",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "sosnovka"
+    ],
+    "description": "Village in the southwest."
+  },
+  {
+    "id": "staroye",
+    "name": "Staroye",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "staroye"
+    ],
+    "description": "Historic southern village."
+  },
+  {
+    "id": "tulga",
+    "name": "Tulga",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "tulga"
+    ],
+    "description": "Village overlooking the southeastern coast."
+  },
+  {
+    "id": "vysotovo",
+    "name": "Vysotovo",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "vysotovo"
+    ],
+    "description": "Small village near Balota."
+  },
+  {
+    "id": "vyshnoye",
+    "name": "Vyshnoye",
+    "category": "village",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "vyshnoye"
+    ],
+    "description": "Southern inland village."
+  }
+,
+  {
+    "id": "balota-airfield",
+    "name": "Balota Airfield",
+    "category": "military",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "balota airfield",
+      "balota airstrip"
+    ],
+    "description": "Military airfield on the south-west coast."
+  }
+,
+  {
+    "id": "kamenka-military-outpost",
+    "name": "Kamenka Military Outpost",
+    "category": "military",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "kamenka military",
+      "kamenka outpost"
+    ],
+    "description": "Military outpost west of Kamenka."
+  },
+  {
+    "id": "pavlovo-military-base",
+    "name": "Pavlovo Military Base",
+    "category": "military",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "pavlovo military",
+      "pavlovo base"
+    ],
+    "description": "Military installation south of Pavlovo."
+  },
+  {
+    "id": "southwest-encampment",
+    "name": "Southwest Encampment",
+    "category": "military",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "southwest camp",
+      "sw camp",
+      "southwest encampment"
+    ],
+    "description": "Military encampment in the south-west."
+  },
+  {
+    "id": "skalisty-island",
+    "name": "Skalisty Island",
+    "category": "military",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "skalisty",
+      "prison island"
+    ],
+    "description": "Island prison containing a military installation."
+  },
+  {
+    "id": "cape-golova-lighthouse",
+    "name": "Cape Golova Lighthouse",
+    "category": "landmark",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "cape golova",
+      "golova lighthouse"
+    ],
+    "description": "Historic lighthouse overlooking the southern coast."
+  },
+  {
+    "id": "krutoy-cap-lighthouse",
+    "name": "Krutoy Cap Lighthouse",
+    "category": "landmark",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "krutoy",
+      "krutoy cap",
+      "krutoy lighthouse"
+    ],
+    "description": "Lighthouse on the south-eastern headland."
+  },
+  {
+    "id": "otmel",
+    "name": "Otmel",
+    "category": "landmark",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "keywords": [
+      "otmel"
+    ],
+    "description": "Named coastal landmark east of Elektrozavodsk."
+  }
+]

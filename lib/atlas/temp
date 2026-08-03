@@ -1,0 +1,11 @@
+import {
+  worldToImage,
+  imageToWorld,
+} from "./projection";
+
+console.log(
+  worldToImage({
+    x: 7680,
+    y: 7680,
+  })
+);

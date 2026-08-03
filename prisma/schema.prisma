@@ -1,0 +1,160 @@
+// =============================================================================
+// Generator
+// =============================================================================
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+// =============================================================================
+// Datasource
+// =============================================================================
+
+datasource db {
+  provider = "postgresql"
+}
+
+// =============================================================================
+// Enums
+// =============================================================================
+
+enum StaffRole {
+  OWNER
+  ADMINISTRATOR
+  SENIOR_ADMIN
+  ADMIN
+  TRIAL_ADMIN
+  MODERATOR
+  SERVER_DEVELOPER
+  DISCORD_DEVELOPER
+  EVENTS_TEAM
+}
+
+enum StaffStatus {
+  ONLINE
+  AWAY
+  OFFLINE
+  SUSPENDED
+}
+
+// =============================================================================
+// Auth.js Models
+// =============================================================================
+
+model User {
+  id            String    @id @default(cuid())
+
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+
+  discordId     String?   @unique
+  username      String?
+  displayName   String?
+  avatar        String?
+  banner        String?
+
+  accounts      Account[]
+  sessions      Session[]
+
+  staffProfile  StaffProfile?
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Account {
+  id                String @id @default(cuid())
+
+  userId            String
+
+  type              String
+
+  provider          String
+
+  providerAccountId String
+
+  refresh_token     String?
+
+  access_token      String?
+
+  expires_at        Int?
+
+  token_type        String?
+
+  scope             String?
+
+  id_token          String?
+
+  session_state     String?
+
+  user User @relation(
+    fields: [userId],
+    references: [id],
+    onDelete: Cascade
+  )
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id String @id @default(cuid())
+
+  sessionToken String @unique
+
+  userId String
+
+  expires DateTime
+
+  user User @relation(
+    fields: [userId],
+    references: [id],
+    onDelete: Cascade
+  )
+}
+
+model VerificationToken {
+  identifier String
+
+  token String @unique
+
+  expires DateTime
+
+  @@unique([identifier, token])
+}
+
+// =============================================================================
+// Sentinel Models
+// =============================================================================
+
+model StaffProfile {
+  id String @id @default(cuid())
+
+  userId String @unique
+
+  user User @relation(
+    fields: [userId],
+    references: [id],
+    onDelete: Cascade
+  )
+
+  role StaffRole
+
+  status StaffStatus @default(OFFLINE)
+
+  active Boolean @default(true)
+
+  joinedAt DateTime @default(now())
+
+  internalNotes String?
+
+  createdAt DateTime @default(now())
+
+  updatedAt DateTime @updatedAt
+
+  @@index([role])
+
+  @@index([status])
+}

@@ -3,13 +3,13 @@ import {
   FeaturedOperation,
   UpcomingEvents,
   EventCategories,
-} from "../components/events";
+} from "../../Components 2/marketing/events";
 
 import {
   Navbar,
   Footer,
   CTA,
-} from "../components/layout";
+} from "../../Components 2/layouts";
 
 export default function EventsPage() {
   return (
